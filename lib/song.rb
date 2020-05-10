@@ -40,7 +40,7 @@ class Song
   
   @@artists = []
   
- def self.artist 
+ def self.artists
    @@artists.uniq
  end
   
