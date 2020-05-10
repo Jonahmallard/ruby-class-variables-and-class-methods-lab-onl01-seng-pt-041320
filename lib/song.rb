@@ -41,7 +41,7 @@ class Song
   @@artists = []
   
  def self.artist 
-   @@artists
+   @@artists.uniq
  end
   
    
