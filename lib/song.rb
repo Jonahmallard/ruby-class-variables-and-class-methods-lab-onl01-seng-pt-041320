@@ -39,7 +39,7 @@ class Song
   
   
   def self.artists
-    @@artists = []
+    @@artists 
   end
   
   @@genres = []
