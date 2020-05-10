@@ -13,6 +13,14 @@ class Song
     @name
   end
   
+  def artist=(artist)
+    @artist = artist
+  end
+ 
+  def artist
+    @artist
+  end
+  
   @@count = 0 
   
   def self.count 
