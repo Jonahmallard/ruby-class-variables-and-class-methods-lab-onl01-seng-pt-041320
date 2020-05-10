@@ -32,6 +32,7 @@ class Song
   
   def self.count 
     @@count 
+    @@count += 1 
   end 
   
   @@count += 1 
