@@ -36,7 +36,13 @@ class Song
     @@count 
   end 
   
-  Artist.all 
+    = []
+  
+  def self.artists
+    @@artists = []
+  
+  
+   
   @@genres = []
   
   def self.genres
