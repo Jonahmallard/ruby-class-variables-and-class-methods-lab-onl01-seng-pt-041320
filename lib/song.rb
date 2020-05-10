@@ -29,7 +29,7 @@ class Song
     @genre
   end
   
-  @@count = 0 
+  @@count = []
   
   def self.count 
     @@count 
