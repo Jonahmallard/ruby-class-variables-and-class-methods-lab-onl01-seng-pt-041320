@@ -35,7 +35,7 @@ class Song
     @@count += 1 
   end 
   
-  @@count += 1 
+  
   
   @@artists = []
   
